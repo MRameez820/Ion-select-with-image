@@ -1,27 +1,14 @@
-#container {
-  text-align: center;
+.coin-select
+{
+padding-left:65px;
+padding-right:4px;
+margin-top:10px;
+background:white;
+color:black;
+margin-left:0px;
+background-repeat: no-repeat; 
+width:100%;
+ background-position: 2% 50%; 
 
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
 
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
+} 

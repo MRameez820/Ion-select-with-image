@@ -8,7 +8,7 @@ Ion Select With Image
 
 <ion-content [fullscreen]="true">
 	<ion-select [ngStyle]="{'background-image': 'url(assets/currency/'+selectedcurrency+'.png)'}"  class="coin-select" (click)="loadcurrency()"  [(ngModel)]="selectedcurrency" >           
- 	<ion-select-option class="coin-opt" *ngFor="let currency of currencies" value="{{currency.name}}">{{currency.capital}}</ion-select-option>
+ 	<ion-select-option *ngFor="let currency of currencies" value="{{currency.name}}">{{currency.capital}}</ion-select-option>
 </ion-select>
 
 </ion-content>
